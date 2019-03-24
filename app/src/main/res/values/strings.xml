@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Note Taker</string>
+
+        <string-array name="planets_array">
+            <item>Sort By Title</item>
+            <item>Sort By Oldest</item>
+            <item>Sort By Newest</item>
+            <item>Sort By Category</item>
+
+        </string-array>
+    <string-array name="user_inserted_categories">
+        <item>Home</item>
+        <item>Work</item>
+        <item>School</item>
+    </string-array>
+</resources>

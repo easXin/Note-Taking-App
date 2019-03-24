@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainConstraintLayout"
+    android:layout_width="match_parent"
+    android:background="#f5e98b"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--<TextView-->
+        <!--android:id="@+id/spinnerText"-->
+        <!--android:textColor="#010203"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/spinner"-->
+        <!--android:text="Sort the list"/>-->
+
+    <TextView
+        android:id="@+id/empty"
+        android:textColor="#010203"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start writing notes!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:textColor="#010203"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="10dp"
+        android:textSize="20pt"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerText"
+       />
+
+    <ListView
+        android:id="@+id/note_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
