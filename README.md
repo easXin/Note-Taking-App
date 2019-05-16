@@ -1,2 +1,2 @@
 # NoteTakingApp-HCI
-Android App
+A notetaking app for android
